@@ -6,3 +6,19 @@ body {
     height: 100%;
     background-image: url("../img/mostly_sunny_background.png");
 }
+
+#main-container {
+    width: 450px;
+}
+
+.center-horizontal {
+    margin: 0 auto;
+}
+
+.push {
+    height: 33%;
+}
+
+.wrapper {
+    height: 100%;
+}
