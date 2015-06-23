@@ -1,0 +1,8 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url("../img/mostly_sunny_background.png");
+}
