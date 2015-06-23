@@ -7,6 +7,18 @@ body {
     background-image: url("../img/mostly_sunny_background.png");
 }
 
+@media screen and (max-width: 1400px){
+    body {
+        background-image: url("../img/mostly_sunny_background_low.png");
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body {
+        background-image: url("../img/mostly_sunny_background_low.png");
+    }
+}
+
 #main-container {
     width: 450px;
 }
