@@ -27,12 +27,24 @@ body {
     }
 }
 
+#email {
+    color: #333;
+}
+
+#links {
+    padding: 5px;
+}
+
 #main-container {
-    width: 450px;
+    width: 500px;
 }
 
 .center-horizontal {
     margin: 0 auto;
+}
+
+.fb-like {
+    vertical-align: top !important; 
 }
 
 .push {
