@@ -7,11 +7,12 @@ html {
 body {
     height: 100%;
     font-family: 'Lato', sans-serif !important;
-    background-image: url("../img/clouds_sm.png");
+    background-image: url("../img/portland.png");
+    color: #000 !important;
 }
 
 #email {
-    color: #333;
+    color: #000;
 }
 
 #links {
@@ -19,7 +20,11 @@ body {
 }
 
 #main-container {
-    width: 500px;
+    width: 375px;
+    background-color: #ddd;
+    border-radius: 7px;
+    padding: 20px;
+    opacity: 0.8;
 }
 
 #name {
