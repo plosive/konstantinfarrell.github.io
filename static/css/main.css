@@ -1,30 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
 html {
     height: 100%;
 }
 
 body {
     height: 100%;
-    background-image: url("../img/mostly_sunny_background.png");
-}
-
-@media screen and (max-width: 2400px){
-    body {
-        background-image: url("../img/mostly_sunny_background.png");
-    }
-}
-
-@media screen and (max-width: 1024px){
-    body {
-        background-image: url("../img/mostly_sunny_background_low.png");
-    }
-}
-
-
-@media screen and (max-width: 600px){
-    body {
-        background-image: none;
-        background-color: #ccffff;
-    }
+    font-family: 'Lato', sans-serif !important;
+    background-image: url("../img/clouds_sm.png");
 }
 
 #email {
@@ -39,6 +22,10 @@ body {
     width: 500px;
 }
 
+#name {
+    font-size: 44px;
+}
+
 .center-horizontal {
     margin: 0 auto;
 }
@@ -48,7 +35,7 @@ body {
 }
 
 .push {
-    height: 33%;
+    height: 15%;
 }
 
 .wrapper {
