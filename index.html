@@ -8,6 +8,16 @@
     <script type="text/javascript" src="static/js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="static/js/jquery-ui.js"></script>
     <script type="text/javascript" src="static/js/helpers.js"></script>
+    <script>
+        // Handy image preloading function
+        $.preloadImages = function(){
+            for(var i = 0; i < arguments.length; i++){
+                $("<img />").attr("src", arguments[i]);
+            }
+        }
+        //preload the logo
+        $.preloadImages("static/img/logo.png", "static/img/bg/conceptual.jpg");
+    </script>
     <title>Sweet Scripts</title>
 </head>
 <body>
@@ -26,10 +36,6 @@
                         <td><h1 id="slogan">go.</h1></td>
                     </tr>
                 </table>
-            </div>
-            <div class="row">
-                <p>WHOLE LOTTA BULLSHIT MAN yayayayayayayay.</p>
-                <p>the quick brown fox jumped over the lazy dog.</p>
             </div>
         </div>
     </div>
