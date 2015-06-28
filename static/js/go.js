@@ -40,9 +40,9 @@ $(document).ready(function(){
         if(current < length){
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
-                $("#slogan").fadeIn();
             });
             current++;
+            $("#slogan").fadeIn();
         }
     }, interval);
 });
