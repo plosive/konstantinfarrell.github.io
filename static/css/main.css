@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:400);
+
 
 html {
     height: 100%;
@@ -6,13 +7,29 @@ html {
 
 body {
     height: 100%;
+    background-color: #666 !important;
     font-family: 'Lato', sans-serif !important;
-    background-image: url("../img/portland.png");
     color: #000 !important;
+    overflow: hidden;
+}
+
+#background {
+    background-color: #666;
+    background-image: url("../img/bg/conceptual_color.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
 }
 
 #email {
-    color: #000;
+    color: #ddd;
+}
+
+#footer {
+    height: 6em;
+    color: #ddd;
 }
 
 #links {
@@ -20,15 +37,33 @@ body {
 }
 
 #main-container {
-    width: 375px;
-    background-color: #ddd;
+    margin: 0 auto;
+    max-width: 75%;
+    //background-color: #ddd;
     border-radius: 7px;
     padding: 20px;
-    opacity: 0.8;
+    opacity: 1;
+}
+
+#main-text-container {
+    margin: 30px auto 0;
+    margin-left: 42%;
+    height: 50px;
+}
+
+#main-text {
+    display: inline;
 }
 
 #name {
     font-size: 44px;
+}
+
+#slogan {
+    color: #fff;
+    text-shadow: 0 0 10px #000052;
+    display: inline;
+    vertical-align: top !important; 
 }
 
 .center-horizontal {
@@ -40,9 +75,16 @@ body {
 }
 
 .push {
-    height: 15%;
+    height: 6em;
+}
+
+.rounded {
+    border-radius: 7px;
 }
 
 .wrapper {
-    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100;
+    margin: 0 auto -6em;
 }
