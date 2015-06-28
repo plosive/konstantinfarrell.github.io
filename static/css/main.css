@@ -19,14 +19,17 @@ body {
     animation-name: slowZoom;
     animation-iteration-count: 1;
     animation-timing-function: zoom;
-    animation-duration: 10s;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
 }
 @keyFrames slowZoom {
     0% {
         background-size: 100%;
+        translate(0px, 0px);
     }
     100% {
         background-size: 105%;
+        translate(160px, 0px);
     }
 }
 
