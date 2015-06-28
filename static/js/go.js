@@ -23,6 +23,7 @@ function preload(imageArray){
     $(imageArray).each(function(){
         var html = $.parseHTML(this);
         var src = $(html).attr('src');
+        $.preloadImages(src);
         loaded.push(src)
     });
     return loaded;
