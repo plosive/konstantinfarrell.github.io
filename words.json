@@ -1,15 +1,20 @@
 {
-    "words":[
-        "agile",
-        "responsive.",
-        "intuitive.",
-        "unique.",
-        "<img class='rounded' src='static/img/external/django.png' alt='django' width='120' height='48'></img>",
-        "<img class='rounded' src='static/img/external/python.png' alt='python' width='150' height='48'></img>",
-        "<img class='rounded' src='static/img/external/php.png' alt='php' width='80' height='48'></img>",
-        "<img class='rounded' src='static/img/external/js.png' alt='javascript' width='48' height='48'></img>",
-        "<img class='rounded' src='static/img/external/bootstrap.png' alt='bootstrap' width='100' height='48'></img>",
-        "<img class='rounded' src='static/img/external/jquery.png' alt='jquery' width='125' height='48'></img>",
-        "made by Konstantin."
-    ]
+    "words": {
+        "text":[
+            "agile.",
+            "lightweight",
+            "responsive.",
+            "intuitive.",
+            "unique."
+        ],
+        "images":[
+            "<img class='rounded' src='static/img/external/django.png' alt='django' width='131' height='48'></img>",
+            "<img class='rounded' src='static/img/external/python.png' alt='python' width='150' height='48'></img>",
+            "<img class='rounded' src='static/img/external/php.png' alt='php' width='80' height='48'></img>",
+            "<img class='rounded' src='static/img/external/js.png' alt='javascript' width='48' height='48'></img>",
+            "<img class='rounded' src='static/img/external/bootstrap.png' alt='bootstrap' width='100' height='48'></img>",
+            "<img class='rounded' src='static/img/external/jquery.png' alt='jquery' width='125' height='48'></img>"
+        ],
+        "close": "made by Konstantin."
+    }
 }
