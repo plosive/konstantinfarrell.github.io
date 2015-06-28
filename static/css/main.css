@@ -1,16 +1,33 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400);
-
+@import url(http://fonts.googleapis.com/css?family=Raleway:600);
 
 html {
     height: 100%;
 }
 
+h1 {
+    font-family: 'Lato', sans-serif !important;
+}
+
 body {
     height: 100%;
     background-color: #666 !important;
-    font-family: 'Lato', sans-serif !important;
-    color: #000 !important;
+    font-family: 'Raleway', sans-serif !important;
+    color: #ddd; 
     overflow: hidden;
+    
+    animation-name: slowZoom;
+    animation-iteration-count: 1;
+    animation-timing-function: zoom;
+    animation-duration: 10s;
+}
+@keyFrames slowZoom {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 105%;
+    }
 }
 
 #background {
@@ -23,12 +40,14 @@ body {
     z-index: -1;
 }
 
+#background
+
 #email {
     color: #ddd;
 }
 
 #footer {
-    height: 6em;
+    height: 4em;
     color: #ddd;
 }
 
@@ -39,10 +58,8 @@ body {
 #main-container {
     margin: 0 auto;
     max-width: 75%;
-    //background-color: #ddd;
     border-radius: 7px;
     padding: 20px;
-    opacity: 1;
 }
 
 #main-text-container {
@@ -86,5 +103,5 @@ body {
     min-height: 100%;
     height: auto !important;
     height: 100;
-    margin: 0 auto -6em;
+    margin: 0 auto -4em;
 }

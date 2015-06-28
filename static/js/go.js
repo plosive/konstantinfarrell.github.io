@@ -18,20 +18,40 @@ function pickNum(array, number){
     }
 }
 
+function preload(imageArray){
+    var loaded = []
+    $(imageArray).each(function(){
+        var html = $.parseHTML(this);
+        var src = $(html).attr('src');
+        loaded.push(src)
+    });
+    return loaded;
+}
+
+var interval = 2000; // 2 seconds for each word.
+var numWords = 3; // 3 words seems like a decent amount.
+var words; // End choices.
+var text; // All nice sounding adjectives.
+var images; // All logos for stuff I can use.
+var finalImages; // All final images.
+var current = 0; // Initialize the list.
+
 
 $(document).ready(function(){
-    var interval = 2000; // 2 seconds for each word.
-    var numWords = 3; // 3 words seems like a decent amount.
-    var words; // End choices.
-    var text; // All nice sounding adjectives.
-    var images; // All logos for stuff I can use.
-    var current = 0; // Initialize the list.
     // Get the raw JSON dump.
     var raw = $.getJSON("../../words.json", function(e){
+        // get all the text and images on inventory
         text = e.words.text;
         images = e.words.images;
+
+        // pick <numWords> random ones from each
         words = pickNum(text, numWords);
-        words = words.concat(pickNum(images, numWords));
+
+        // preload the images
+        finalImages = pickNum(images, numWords);
+        preload(finalImages);
+        words = words.concat(finalImages);
+        // add the final text
         words.push(e.words.close);
     });
 
@@ -40,8 +60,8 @@ $(document).ready(function(){
         if(current < length){
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
-                $("#slogan").fadeIn();
             });
+            $("#slogan").fadeIn();
             current++;
         }
     }, interval);
