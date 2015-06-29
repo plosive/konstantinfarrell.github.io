@@ -53,9 +53,10 @@ var raw = $.getJSON("../../words.json", function(e){
 });
 
 $(window).load(function(){
+    var length = words.length - 1;
     setInterval(function swapWords(){
-        var length = words.length - 1;
-        if(current <= length){
+        if(current < length){
+            current++;
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
             });
@@ -63,7 +64,6 @@ $(window).load(function(){
             if(contains == false){
                 $("#slogan").fadeIn();
             }
-            current++;
         }
     }, interval);
 });
