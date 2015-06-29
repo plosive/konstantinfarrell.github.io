@@ -60,7 +60,7 @@ $(window).load(function(){
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
             });
-            var contains = words[current].contains('<img ');
+            var contains = words[current].indexOf('<img ') > -1;
             if(contains == false){
                 $("#slogan").fadeIn();
             }
