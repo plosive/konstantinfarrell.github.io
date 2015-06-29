@@ -49,13 +49,13 @@ var raw = $.getJSON("../../words.json", function(e){
     words = words.concat(finalImages);
 
     // add the final text
-    words.push(e.words.close);
+    words = words.concat(e.words.close);
 });
 
 $(window).load(function(){
     var length = words.length - 1;
     setInterval(function swapWords(){
-        if(current < length){
+        if(current <= length){
             current++;
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
