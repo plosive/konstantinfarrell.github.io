@@ -1,3 +1,7 @@
-<FilesMatch "\.(git|pge?g|png|ico|css|js|swf)$">
-    Header set CacheControl "max-age=172800, public, must-revalidate"
-</FilesMatch>
+<IfModule mod_headers.c>
+
+    <FilesMatch "\.(git|pge?g|png|ico|css|js|swf)$">
+        Header set CacheControl "max-age=172800, public, must-revalidate"
+    </FilesMatch>
+
+</IfModule>
