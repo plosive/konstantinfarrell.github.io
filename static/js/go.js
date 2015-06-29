@@ -40,14 +40,15 @@ var raw = $.getJSON("../../words.json", function(e){
     // get all the text and images on inventory
     text = e.words.text;
     images = e.words.images;
+    // preload the images
+    preload(images);
 
     // pick <numWords> random ones from each
     words = pickNum(text, numWords);
 
-    // preload the images
     finalImages = pickNum(images, numWords);
-    preload(finalImages);
     words = words.concat(finalImages);
+
     // add the final text
     words.push(e.words.close);
 });
@@ -59,8 +60,8 @@ $(document).ready(function(){
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
             });
-            current++;
             $("#slogan").fadeIn();
+            current++;
         }
     }, interval);
 });
