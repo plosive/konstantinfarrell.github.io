@@ -53,14 +53,12 @@ var raw = $.getJSON("../../words.json", function(e){
 });
 
 $(document).ready(function(){
-
     setInterval(function swapWords(){
         var length = words.length - 1;
         if(current < length){
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
             });
-            $("#slogan").fadeIn();
             current++;
             $("#slogan").fadeIn();
         }
