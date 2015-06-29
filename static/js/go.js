@@ -21,8 +21,8 @@ function pickNum(array, number){
 function preload(imageArray){
     $(imageArray).each(function(){
         var html = $.parseHTML(this);
+        $(html).css('opacity', '0');
         var src = $(html).attr('src');
-        $('<img />').attr('src', this).appendTo('body').css('display', 'none');
         $.preloadImages(src);
     });
 }
@@ -40,6 +40,7 @@ var raw = $.getJSON("../../words.json", function(e){
     // get all the text and images on inventory
     text = e.words.text;
     images = e.words.images;
+    divs = e.words.divs;
     // preload the images
     preload(images);
 
@@ -59,8 +60,8 @@ $(window).load(function(){
         if(current < length){
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
+                $("#slogan").fadeIn();
             });
-            $("#slogan").fadeIn();
             current++;
         }
     }, interval);
