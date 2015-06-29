@@ -37,10 +37,10 @@ body {
 }
 @keyFrames slowZoom {
     0% {
-        background-size: 100%;
+        background-size: auto 100%;
     }
     100% {
-        background-size: 110%;
+        background-size: auto 110%;
         rotate(0.1deg);
     }
 }

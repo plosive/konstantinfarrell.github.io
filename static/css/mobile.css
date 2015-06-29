@@ -4,10 +4,6 @@
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center 0px;
-        transition: background-size 10s;
-    }
-    .trans {
-        background-size: 105%;
     }
 }
 
@@ -28,6 +24,7 @@
     body {
         background-image: url("../img/bg/outlook.jpg");
         background-repeat: no-repeat;
+        background-height: 100% 100%
         background-position: center 0px;
     }
 
