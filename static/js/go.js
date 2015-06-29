@@ -34,7 +34,6 @@ var images; // All logos for stuff I can use.
 var finalImages; // All final images.
 var current = 0; // Initialize the list.
 
-
 // Get the raw JSON dump.
 var raw = $.getJSON("../../words.json", function(e){
     // get all the text and images on inventory
@@ -53,7 +52,7 @@ var raw = $.getJSON("../../words.json", function(e){
     words.push(e.words.close);
 });
 
-$(document).ready(function(){
+$(window).load(function(){
     setInterval(function swapWords(){
         var length = words.length - 1;
         if(current < length){

@@ -15,6 +15,14 @@
             "<img class='rounded' src='static/img/external/bootstrap.jpg' alt='bootstrap' width='100' height='48'></img>",
             "<img class='rounded' src='static/img/external/jquery.jpg' alt='jquery' width='125' height='48'></img>"
         ],
+        "divs":[
+            "<div id='logo1'></div>",
+            "<div id='logo2'></div>",
+            "<div id='logo3'></div>",
+            "<div id='logo4'></div>",
+            "<div id='logo5'></div>",
+            "<div id='logo6'></div>"
+        ],
         "close": "made by Konstantin."
     }
 }
