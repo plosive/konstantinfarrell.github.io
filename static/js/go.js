@@ -40,7 +40,6 @@ var raw = $.getJSON("../../words.json", function(e){
     // get all the text and images on inventory
     text = e.words.text;
     images = e.words.images;
-    divs = e.words.divs;
     // preload the images
     preload(images);
 
@@ -54,14 +53,16 @@ var raw = $.getJSON("../../words.json", function(e){
     words.push(e.words.close);
 });
 
-$(window).load(function(){
+$(document).ready(function(){
     setInterval(function swapWords(){
         var length = words.length - 1;
-        if(current < length){
+        if(current <= length){
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
             });
-            $("#slogan").fadeIn();
+            if(words[current].contains('<img') != true){
+                $("#slogan").fadeIn();
+            }
             current++;
         }
     }, interval);
