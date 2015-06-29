@@ -7,6 +7,9 @@
     <script type="text/javascript" src="static/js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="static/js/jquery-ui.js"></script>
     <script>
+        window.fadeIn = function(obj){
+            $(obj).fadeIn(1000);
+        }
         // Handy image preloading function
         $.preloadImages = function(){
             for(var i = 0; i < arguments.length; i++){
