@@ -22,6 +22,7 @@ function preload(imageArray){
     $(imageArray).each(function(){
         var html = $.parseHTML(this);
         var src = $(html).attr('src');
+        $('<img />').attr('src', this).appendTo('body').css('display', 'none');
         $.preloadImages(src);
     });
 }
