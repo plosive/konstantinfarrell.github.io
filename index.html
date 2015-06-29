@@ -10,12 +10,13 @@
         // Handy image preloading function
         $.preloadImages = function(){
             for(var i = 0; i < arguments.length; i++){
-                $("<img />").attr("src", arguments[i]);
+                $("").attr("src", "static/img/",arguments[i]);
             }
         }
         //preload the logo
         $.preloadImages("static/img/logo.png", "static/img/bg/conceptual_color.jpg");
     </script>
+    <script type="text/javascript" src="static/js/go.js"></script>
     <title>Sweet Scripts</title>
 </head>
 <body>
@@ -44,5 +45,4 @@
             </div>
     </div>
 </body>
-<script type="text/javascript" src="static/js/go.js"></script>
 </html>
