@@ -60,8 +60,8 @@ $(window).load(function(){
         if(current < length){
             $("#slogan").fadeOut(function(){
                 $("#slogan").html(words[current]);
-                $("#slogan").fadeIn();
             });
+            $("#slogan").fadeIn();
             current++;
         }
     }, interval);
