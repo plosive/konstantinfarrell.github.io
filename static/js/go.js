@@ -4,7 +4,7 @@ function pickNum(array, number){
     // pick the random values
     if(number < length){
         for(i = 0; i < number; i++){
-            var index = Math.floor(Math.random() * (length -1));
+            var index = Math.floor(Math.random() * (length));
             result.push(array[index]);
             if(index > -1){
                 array.splice(index,1);
