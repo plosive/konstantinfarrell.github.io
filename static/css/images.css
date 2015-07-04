@@ -1,0 +1,35 @@
+#logo1 {
+    width: 131px;
+    height: 48px;
+    background: url('static/img/external/django.jpg') 0 0;
+}
+
+#logo2 {
+    width: 150px;
+    height: 48px;
+    background: url('static/img/external/python.jpg') 0 0;
+}
+
+#logo3 {
+    width: 80px;
+    height: 48px;
+    background: url('static/img/external/php.jpg') 0 0;
+}
+
+#logo4 {
+    width: 48px;
+    height: 48px;
+    background: url('static/img/external/js.jpg') 0 0;
+}
+
+#logo5 {
+    width: 100px;
+    height: 48px;
+    background: url('static/img/external/bootstrap.jpg') 0 0;
+}
+
+#logo6 {
+    width: 125px;
+    height: 48px;
+    background: url('static/img/external/jquery.jpg') 0 0;
+}
