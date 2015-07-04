@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting Started with Ruby on CentOS 6.5
+category: Quickstart
 ---
 
 To install ruby on a CentOS 6.5 box, just type this into the terminal.

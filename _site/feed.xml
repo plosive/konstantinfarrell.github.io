@@ -6,8 +6,8 @@
 </description>
     <link>http://konstantinfarrell.github.io/</link>
     <atom:link href="http://konstantinfarrell.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 04 Jul 2015 21:18:12 +0000</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 21:18:12 +0000</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2015 21:24:17 +0000</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 21:24:17 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -107,9 +107,11 @@ puts name   #=&amp;gt; Bob
 &lt;h2 id=&quot;more-coming-soon&quot;&gt;More coming soon&lt;/h2&gt;
 </description>
         <pubDate>Fri, 03 Jul 2015 00:00:00 +0000</pubDate>
-        <link>http://konstantinfarrell.github.io/2015/07/03/post-getting-started-with-ruby-on-centos6.5.html</link>
-        <guid isPermaLink="true">http://konstantinfarrell.github.io/2015/07/03/post-getting-started-with-ruby-on-centos6.5.html</guid>
+        <link>http://konstantinfarrell.github.io/quickstart/2015/07/03/post-getting-started-with-ruby-on-centos6.5.html</link>
+        <guid isPermaLink="true">http://konstantinfarrell.github.io/quickstart/2015/07/03/post-getting-started-with-ruby-on-centos6.5.html</guid>
         
+        
+        <category>quickstart</category>
         
       </item>
     
