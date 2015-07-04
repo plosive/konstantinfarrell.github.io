@@ -1,0 +1,21 @@
+{
+    "words": {
+        "text":[
+            "agile.",
+            "lightweight.",
+            "responsive.",
+            "intuitive.",
+            "fast.",
+            "unique."
+        ],
+        "images":[
+            "<img class='rounded' onload='$(\"#slogan\").fadeIn()' src='static/img/external/django.jpg' alt='django' width='131' height='48' />",
+            "<img class='rounded' onload='$(\"#slogan\").fadeIn()' src='static/img/external/python.jpg' alt='python' width='150' height='48' />",
+            "<img class='rounded' onload='$(\"#slogan\").fadeIn()' src='static/img/external/php.jpg' alt='php' width='80' height='48' />",
+            "<img class='rounded' onload='$(\"#slogan\").fadeIn()' src='static/img/external/js.jpg' alt='javascript' width='48' height='48' />",
+            "<img class='rounded' onload='$(\"#slogan\").fadeIn()' src='static/img/external/jquery.jpg' alt='jquery' width='125' height='48' />",
+            "<img class='rounded' onload='$(\"#slogan\").fadeIn()' src='static/img/external/bootstrap.jpg' alt='bootstrap' width='100' height='48' />"
+        ],
+        "close": "made by Konstantin."
+    }
+}

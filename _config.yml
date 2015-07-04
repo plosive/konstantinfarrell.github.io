@@ -1,0 +1,12 @@
+# Site settings
+title: Sweet Scripts
+email: konstantinfarrell@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Make it go. Make it fast. Make it awesome. Make it made by Konstantin.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://konstantinfarrell.github.io" # the base hostname & protocol for your site
+twitter_username: kvonmolotov
+github_username:  konstantinfarrell
+
+# Build settings
+markdown: kramdown
