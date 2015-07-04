@@ -4,6 +4,14 @@ title: Getting Started with Ruby on CentOS 6.5
 category: Quickstart
 ---
 
+## Before you begin
+
+Hi guys. This is a quickstart guide to getting Ruby up and running on your CentOS 6.5 box. This guide is rough, and meant more as a reference for people who know/have worked with the language, but just need a quick refresher. It also works as a quickstart guide for ADHD kids like myself who don't want to do a lot of reading. 
+
+This guide assumes you have some level of proficiency in UNIX commands, and can infer what is happening in the code without many descriptive details. That beign said, if you think I missed something critical, feel free to email me and I will make adjustments as necessary.
+
+## Lets begin now.
+
 To install ruby on a CentOS 6.5 box, just type this into the terminal.
 
     yum install ruby
