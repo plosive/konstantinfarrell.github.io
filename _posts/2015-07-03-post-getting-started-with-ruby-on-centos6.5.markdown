@@ -70,5 +70,16 @@ and low precedence variations. These are meant more for control of program flow.
     
     nil # ruby's keyword for a null value.
    
+#### Input & Output
+
+I/O is quite simple in Ruby. To output values to the console
+
+    puts "Hello, World!"
+    print "You can also print with print"
+
+And to get input
+
+    name = gets # user inputs "Bob"
+    puts name   #=> Bob
 
 ## More coming soon
