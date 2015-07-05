@@ -3,6 +3,7 @@ layout: post
 title: Getting Started with Ruby on CentOS 6.5
 category: Quickstart
 exerpt: A quickstart guide to getting Ruby up and running on your CentOS 6.5 box.
+author: Konstantin Farrell
 ---
 
 ## Before you begin
