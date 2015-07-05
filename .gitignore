@@ -1,2 +1,13 @@
-/.sass-cache/*
-/static
+Gemfile.lock
+*.gem
+pkg/
+*.swp
+*~
+_site/
+.bundle/
+.DS_Store
+bbin/
+.ruby-version
+.ruby-gemset
+.sass-cache
+.jekyll-metadata
