@@ -1,7 +1,22 @@
+#background {
+    background-color: $grey-color-light;
+    opacity: 0.7;
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1;
+}
+
+.center-horizontal {
+    display: block;
+    margin: 0 auto;
+}
+
 /**
  * Site header
  */
 .site-header {
+    background-color: $background-color;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -92,6 +107,7 @@
  * Site footer
  */
 .site-footer {
+    background-color: $background-color;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
@@ -126,13 +142,13 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+    width:         calc(40% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -194,6 +210,7 @@
  * Posts
  */
 .post-header {
+    opacity: 1;
     margin-bottom: $spacing-unit;
 }
 
@@ -208,6 +225,7 @@
 }
 
 .post-content {
+    opacity: 1;
     margin-bottom: $spacing-unit;
 
     h2 {
@@ -233,4 +251,11 @@
             font-size: 18px;
         }
     }
+}
+
+#profile {
+    border-radius: 75px;
+    border: 3px solid #333;
+    display: block;
+    margin: 0 auto !important;
 }

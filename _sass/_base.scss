@@ -20,9 +20,15 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+    background-image: url("/static/img/bg/outlook.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-text-size-adjust: 100%;
 }
 
+html, body {
+    height: 100%
+}
 
 
 /**

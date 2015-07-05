@@ -17,7 +17,13 @@ body {
   font-weight: 300;
   color: #111;
   background-color: #fdfdfd;
+  background-image: url("/static/img/bg/outlook.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-text-size-adjust: 100%; }
+
+html, body {
+  height: 100%; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -142,10 +148,23 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+#background {
+  background-color: #e8e8e8;
+  opacity: 0.7;
+  position: absolute;
+  height: 100% !important;
+  width: 100% !important;
+  z-index: -1; }
+
+.center-horizontal {
+  display: block;
+  margin: 0 auto; }
+
 /**
  * Site header
  */
 .site-header {
+  background-color: #fdfdfd;
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
@@ -206,6 +225,7 @@ pre {
  * Site footer
  */
 .site-footer {
+  background-color: #fdfdfd;
   border-top: 1px solid #e8e8e8;
   padding: 30px 0; }
 
@@ -233,12 +253,12 @@ pre {
   width: calc(35% - (30px / 2)); }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (30px / 2));
-  width: calc(20% - (30px / 2)); }
+  width: -webkit-calc(25% - (30px / 2));
+  width: calc(25% - (30px / 2)); }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - (30px / 2)); }
+  width: -webkit-calc(40% - (30px / 2));
+  width: calc(40% - (30px / 2)); }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
@@ -281,6 +301,7 @@ pre {
  * Posts
  */
 .post-header {
+  opacity: 1;
   margin-bottom: 30px; }
 
 .post-title {
@@ -292,6 +313,7 @@ pre {
       font-size: 36px; } }
 
 .post-content {
+  opacity: 1;
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
@@ -308,6 +330,12 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+
+#profile {
+  border-radius: 75px;
+  border: 3px solid #333;
+  display: block;
+  margin: 0 auto !important; }
 
 /**
  * Syntax highlighting styles
