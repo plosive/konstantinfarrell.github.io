@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img id="profile" src="{{ site.url }}/static/img/profile.jpg" alt="Profile Picture" width="200px" height="200px" />
+<img id="profile" src="{{ site.url }}/static/img/profile.jpg" alt="Profile Picture" width="250px" height="250px" />
 
 ## My name is Konstantin. I make things go.
 

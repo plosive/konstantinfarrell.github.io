@@ -1,9 +1,9 @@
 #background {
     background-color: $grey-color-light;
-    opacity: 0.7;
-    position: absolute;
-    height: 100% !important;
-    width: 100% !important;
+    opacity: 0.3;
+    position: fixed;
+    height: 100%;
+    width: 100%;
     z-index: -1;
 }
 
@@ -209,6 +209,12 @@
 /**
  * Posts
  */
+.post {
+    background-color: $background-color;
+    border-radius: 7px;
+    padding: $spacing-unit/2;
+}
+
 .post-header {
     opacity: 1;
     margin-bottom: $spacing-unit;
@@ -225,9 +231,9 @@
 }
 
 .post-content {
-    opacity: 1;
     margin-bottom: $spacing-unit;
-
+    border-radius: 7px;
+    padding: 10px;
     h2 {
         font-size: 32px;
 
