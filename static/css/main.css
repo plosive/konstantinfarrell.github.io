@@ -12,8 +12,8 @@ h1 {
 
 body {
     height: 100%;
-    background-color: #666 !important;
     font-family: 'Raleway', sans-serif !important;
+    background: linear-gradient(#ccc, #003366) !important;
     color: #ddd; 
     overflow: hidden;
 
@@ -39,8 +39,6 @@ body {
 }
 
 #background {
-    background-color: #666;
-    background-image: url("../img/bg/conceptual_color.jpg");
     background-repeat: no-repeat;
     background-position: center 0px;
     position: absolute;
