@@ -58,3 +58,6 @@ That ought to do it for dependencies.
 All that is left for you to do now is get your account whitelisted so you can have access to the server. Send an email to <konstantinfarrell@gmail.com> with your first and last name, and account name.
 I will respond with the server criteria when you have been approved.
 
+### Check back soon!
+
+I will be posting updates to this frequently.
