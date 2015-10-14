@@ -43,7 +43,7 @@ In the following instructions, replace `username` with your Windows username. If
 
 - Download the listed mods.
 - First install Forge by double clicking the installer and following the instructions.
-- Next unzip the 1.8.zip file, and place the unzipped folder in the mods directory (`C:\Users\username\AppData\Roaming\.minecraft\mods`)
+- Next unzip the 1.8.zip file, and place the contents in the mods directory (`C:\Users\username\AppData\Roaming\.minecraft\mods`)
 - Unzip the worldedit.zip file and place the unzipped folder in the config directory (`C:\Users\username\AppData\Roaming\.minecraft\config`)
 - Place the Crafteryada v0.9.3a.zip file in the resourcepacks directory (`C:\Users\username\AppData\Roaming\.minecraft\resourcepacks`)
 
