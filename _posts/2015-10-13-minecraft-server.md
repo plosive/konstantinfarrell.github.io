@@ -49,6 +49,10 @@ In the following instructions, replace `username` with your Windows username. If
 
 That ought to do it for dependencies.
 
+- Now start up minecraft, and set the profile to "Forge"
+- In the settings menu, select `options > resource packs > Crafteryada v0.9.3a.zip`
+- Save and exit.
+
 ## Get Approved
 
 All that is left for you to do now is get your account whitelisted so you can have access to the server. Send an email to <konstantinfarrell@gmail.com> with your first and last name, and account name.
