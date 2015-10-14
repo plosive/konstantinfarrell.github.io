@@ -39,7 +39,7 @@ You should have Minecraft 1.8 (the latest version) installed. You will also need
 
 ## Install (for Windows)
 
-In the following instructions, replace `username` with your Windows username. If one of the listed folders does not exist in your minecraft diretory, simply create a new folder with that name.
+In the following instructions, replace `username` with your Windows username. If one of the listed folders does not exist in your minecraft directory, simply create a new folder with that name.
 
 - Download the listed mods.
 - First install Forge by double clicking the installer and following the instructions.
