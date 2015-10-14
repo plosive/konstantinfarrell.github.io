@@ -1,8 +1,8 @@
 ---
-title: A New Minecraft Server
+title: Konstantin's Private Minecraft Server
 layout: post
-category: Misc
-exerpt: I made a Minecraft server. Here are the requirements.
+category: Minecraft
+exerpt: I made a Minecraft server. Wanna play? Here's how.
 author: Konstantin Farrell
 published: true
 ---
