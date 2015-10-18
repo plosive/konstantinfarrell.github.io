@@ -42,7 +42,7 @@ In the following instructions, replace `username` with your Windows username. If
     - Open the Forge installer and following the instructions to "install client".
     - Open Minecraft Launcher, select the 'Forge' profile, and start Minecraft
     - Once you see the menu screen, exit Minecraft
-- [LiteLoader Installer]
+- [LiteLoader Installer](../../../../files/server/mods/liteloader-installer-1.8.0.exe)
     - Open and choose to "extend from" the Forge profile then install
     - Open Minecraft Launcher using the 'LiteLoader with Forge' profile
     - Once you see the menu screen, exit Minecraft
