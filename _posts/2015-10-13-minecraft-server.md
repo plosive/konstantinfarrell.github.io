@@ -24,6 +24,8 @@ For now, this server is dedicated to building Plum Town. If you would like to ad
 Any unauthorized building will be deleted without warning. 
 
 Here is a [map](../../../../files/server/img/map.jpg) of plum town done by Remi and 'tori.
+Also, we have a list of thing to be built, go ahead and take a look at the [workflowy](https://workflowy.com/s/8553xHNcUY)
+Join the Facebook group!
 
 ## Requirements
 
