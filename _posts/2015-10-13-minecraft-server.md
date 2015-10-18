@@ -29,29 +29,34 @@ Here is a [map](../../../../files/server/img/map.jpg) of plum town done by Remi 
 
 There are a few things you're going to need before you will be able to connect, as we aren't running a vanilla server. Mods are fun.
 
-You should have Minecraft 1.8 (the latest version) installed. You will also need to download the following.
-
-- [Forge Modloader](../../../../files/server/forge/forge-1.8-11.14.1.1334-installer-win.exe)
-- [Zipped Mods Folder](../../../../files/server/mods/1.8.zip)
-- [Worldedit Config Files](../../../../files/server/config/worldedit.zip)
-- [Resource Packs](../../../../files/server/resourcepacks/Crafteryada v0.9.3a.zip)
-
+You should have Minecraft 1.8 (the latest version) installed. Below are the additional items for you to download and instructions for proper installation etc...
 
 ## Install (for Windows)
 
 In the following instructions, replace `username` with your Windows username. If one of the listed folders does not exist in your minecraft directory, simply create a new folder with that name.
 
-- Download the listed mods.
-- First install Forge by double clicking the installer and following the instructions.
-- Next unzip the 1.8.zip file, and place the contents in the mods directory (`C:\Users\username\AppData\Roaming\.minecraft\mods`)
-- Unzip the worldedit.zip file and place the unzipped folder in the config directory (`C:\Users\username\AppData\Roaming\.minecraft\config`)
-- Place the Crafteryada v0.9.3a.zip file in the resourcepacks directory (`C:\Users\username\AppData\Roaming\.minecraft\resourcepacks`)
+- [Forge Modloader](../../../../files/server/forge/forge-1.8-11.14.1.1334-installer-win.exe)
+    - Open the Forge installer and following the instructions to "install client".
+    - Open Minecraft Launcher, select the 'Forge' profile, and start Minecraft
+    - Once you see the menu screen, exit Minecraft
+- [LiteLoader Installer]
+    - Open and choose to "extend from" the Forge profile then install
+    - Open Minecraft Launcher using the 'LiteLoader with Forge' profile
+    - Once you see the menu screen, exit Minecraft
+- [Zipped Mods Folder](../../../../files/server/mods/1.8.zip)
+    - Unzip and place the "1.8" file folder in the mods directory (`C:\Users\username\AppData\Roaming\.minecraft\mods`)
+    - Your (\.minecraft\mods\1.8) folder should contain .jar/.litemod files for: Optifine, WorldEdit, and Zan's MiniMap
+- [Worldedit Config Files](../../../../files/server/config/worldedit.zip)
+    - Unzip & place the "worldeidt" file folder in the config directory (`C:\Users\username\AppData\Roaming\.minecraft\config`)
+- [Resource Pack](../../../../files/server/resourcepacks/Crafteryada v0.9.3a.zip)
+    - Place the Crafteryada v0.9.3a.zip file in the resourcepacks directory (`C:\Users\username\AppData\Roaming\.minecraft\resourcepacks`)
 
 That ought to do it for dependencies.
 
-- Now start up minecraft, and set the profile to "Forge"
-- In the settings menu, select `options > resource packs > Crafteryada v0.9.3a.zip`
-- Save and exit.
+- Now start up Minecraft Launcher & make sure you have the 'LiteLoader with Forge' profile selected
+- I highly suggest you allocate more RAM by selecting "Edit Profile" and changing the number in the "JVM Arguments" field (at the bottom) to the number of gigs (of RAM) you want Minecraft to use. For example, I wanted to use 4 gigs, so mine says: -Xmx4G
+- Start up minecraft. In the settings menu, select `options > resource packs > Crafteryada v0.9.3a.zip`
+- Make sure everything's working out, save, and exit.
 
 ## Get Approved
 
