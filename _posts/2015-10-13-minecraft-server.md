@@ -25,6 +25,8 @@ For now, this server is dedicated to building Plum Town. If you would like to ad
 Any unauthorized building will be deleted without warning. 
 
 Here is a [map](../../../../files/server/img/map.jpg) of plum town done by Remi and 'tori.
+Also, we have a list of thing to be built, go ahead and take a look at the [workflowy](https://workflowy.com/s/8553xHNcUY)
+Join the Facebook group!
 
 ## Requirements
 
@@ -40,7 +42,7 @@ In the following instructions, replace `username` with your Windows username. If
     - Open the Forge installer and following the instructions to "install client".
     - Open Minecraft Launcher, select the 'Forge' profile, and start Minecraft
     - Once you see the menu screen, exit Minecraft
-- [LiteLoader Installer]
+- [LiteLoader Installer](../../../../files/server/mods/liteloader-installer-1.8.0.exe)
     - Open and choose to "extend from" the Forge profile then install
     - Open Minecraft Launcher using the 'LiteLoader with Forge' profile
     - Once you see the menu screen, exit Minecraft
@@ -48,7 +50,7 @@ In the following instructions, replace `username` with your Windows username. If
     - Unzip and place the "1.8" file folder in the mods directory (`C:\Users\username\AppData\Roaming\.minecraft\mods`)
     - Your (\.minecraft\mods\1.8) folder should contain .jar/.litemod files for: Optifine, WorldEdit, and Zan's MiniMap
 - [Worldedit Config Files](../../../../files/server/config/worldedit.zip)
-    - Unzip & place the "worldeidt" file folder in the config directory (`C:\Users\username\AppData\Roaming\.minecraft\config`)
+    - Unzip & place the "worldedit" file folder in the config directory (`C:\Users\username\AppData\Roaming\.minecraft\config`)
 - [Resource Pack](../../../../files/server/resourcepacks/Crafteryada v0.9.3a.zip)
     - Place the Crafteryada v0.9.3a.zip file in the resourcepacks directory (`C:\Users\username\AppData\Roaming\.minecraft\resourcepacks`)
 
