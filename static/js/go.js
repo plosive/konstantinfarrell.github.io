@@ -33,9 +33,10 @@ var text; // All nice sounding adjectives.
 var images; // All logos for stuff I can use.
 var finalImages; // All final images.
 var current = 0; // Initialize the list.
+var raw;
 
 // Get the raw JSON dump.
-var raw = $.getJSON("../../words.json", function(e){
+raw = $.getJSON("../../words.json", function(e){
     // get all the text and images on inventory
     text = e.words.text;
     images = e.words.images;
@@ -52,20 +53,26 @@ var raw = $.getJSON("../../words.json", function(e){
     words = words.concat(e.words.close);
 });
 
-$(window).load(function(){
-    var length = words.length - 1;
-    setInterval(function swapWords(){
-        if(current < length){
-            current++;
-            $("#slogan").fadeOut(function(){
-                $("#slogan").html(words[current]);
-            });
-            var contains = words[current].indexOf('<img ') > -1;
-            if(contains == false){
-                $("#slogan").fadeIn();
+$(window).load(function runScript(){
+    if (typeof words === "undefined"){
+        setTimeout(function(){
+            runScript();
+        }, 250);
+    } else {
+        var length = words.length - 1;
+        setInterval(function swapWords(){
+            if(current < length){
+                current++;
+                $("#slogan").fadeOut(function(){
+                    $("#slogan").html(words[current]);
+                });
+                var contains = words[current].indexOf('<img ') > -1;
+                if(contains == false){
+                    $("#slogan").fadeIn();
+                }
             }
-        }
-    }, interval);
+        }, interval);
+    }
 });
 
 
