@@ -17,5 +17,5 @@ function credit(){
     var credit = credits[Math.floor(Math.random()*credits.length)];
     return openingHtml + credit + closingHtml;
 }
-
 var credit = credit();
+document.write(credit);
