@@ -12,6 +12,8 @@ function credit(){
         "Stolen from sleeping bandits",
         "Forged in the depths of Mordor",
         "Dropped from a plane",
+        "Written in hex",
+        "Freshly squeezed",
         "Fed to ducks",
     ];
     var credit = credits[Math.floor(Math.random()*credits.length)];
