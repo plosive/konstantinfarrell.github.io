@@ -1,6 +1,6 @@
 // A short script that gives me credit lol.
 function credit(){
-    var openingHtml = '<div class="text-muted text-center"><a id="refresh-credit" href="#"><span class="glyphicon glyphicon-refresh"></span></a> ';
+    var openingHtml = '<div id="credit" class="text-muted text-center"><a id="refresh-credit" href="#"><span class="glyphicon glyphicon-refresh"></span></a> ';
     var closingHtml = ' by <a href="http://konstantinfarrell.github.io">Konstantin Farrell</a></div>';
 
     var credits = [
@@ -20,13 +20,15 @@ function credit(){
     return openingHtml + credit + closingHtml;
 }
 
+
+var script = "<script>" +
+             "$('#refresh-credit').click(function(e){ " +
+             "credit = credit(); " +
+              "$('#credit').html(credit); " +
+              "$('#credit').hide(); " +
+              "});" +
+              "</script>";
+
 var credit;
-
-$('#refresh-credit').click(function(e){
-    e.preventDefault();
-    credit = credit();
-    document.write(credit);
-});
-
 credit = credit();
-document.write(credit);
+document.write(credit + script);
