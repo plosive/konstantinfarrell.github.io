@@ -30,4 +30,5 @@ var script = "<script>" +
 
 var credit;
 credit = credit();
-document.write(credit + script);
+document.write(credit);
+document.write(script);
