@@ -23,8 +23,8 @@ function credit(){
 
 var script = "<script>" +
              "$('#refresh-credit').click(function(e){ " +
-              "$('#credit').html(); " +
-              "$('#script').html(\"<script type='text/javascript' src='http://konstantinfarrell.github.io/static/js/credit.js'></script>\")" +
+              "$('#credit').remove(); " +
+              "$('#script').html(\'<script type='text/javascript' src='http://konstantinfarrell.github.io/static/js/credit.js'></script>\')" +
               "})\;" +
               "</script>";
 
