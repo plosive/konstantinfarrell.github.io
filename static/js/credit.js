@@ -24,8 +24,8 @@ function credit(){
 var script = "<script>" +
              "$('#refresh-credit').click(function(e){ " +
               "$('#credit').html(); " +
-              "$('#script').html(&quot;<script type='text/javascript' src='http://konstantinfarrell.github.io/static/js/credit.js'></script>&quot;);" +
-              "});" +
+              "$('#script').html(\&quot\;<script type='text/javascript' src='http://konstantinfarrell.github.io/static/js/credit.js'></script>\&quot\;)\;" +
+              "})\;" +
               "</script>";
 
 var credit;
