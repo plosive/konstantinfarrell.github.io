@@ -25,6 +25,7 @@ var script = "<script type='text/javascript'>" +
              "$('#refresh-credit').click(function(e){ " +
               "$('#credit').remove(); " +
               "$('#script').html(\'%3Cscript type=\"text/javascript\" src=\"http://konstantinfarrell.github.io/static/js/credit.js\" %3E%3C/script%3E\' );" +
+              "$('#script').toggle().toggle()" +
               "});" +
               "</script>";
 
