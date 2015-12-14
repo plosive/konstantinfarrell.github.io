@@ -6,6 +6,8 @@ exerpt: I made a Minecraft server. Wanna play? Here's how.
 author: Konstantin Farrell, 'tori Christensen
 edited: 10/18/2015
 published: true
+image: /files/server/img/screenshot.png
+image-alt: Minecraft Screenshot
 ---
 
 ![Minecraft Screenshot](../../../../files/server/img/screenshot.png)

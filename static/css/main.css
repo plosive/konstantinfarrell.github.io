@@ -35,6 +35,7 @@ body {
     -moz-animation-duration: 10s;
     -moz-animation-fill-mode: forwards;
 }
+
 @keyFrames slowZoom {
 }
 
