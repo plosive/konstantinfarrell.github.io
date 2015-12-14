@@ -14,4 +14,4 @@ I really like code, space, engineering, and making things go. Whether it's that 
 
 While I am currently employed, I have lots of free afternoons to do stuff with. If you have a site that needs to be redone, a buggy module that could use a second pair of eyes, or a rocket that really wants to get to space, let me know.
 
-<img class="center-horizontal" src="{{ site.url }}/static/img/logo.png" alt="KF Logo" width="300" height="300" />
+<img id="logo" class="center-horizontal" src="{{ site.url }}/static/img/logo.png" alt="KF Logo" width="300" height="300" />
