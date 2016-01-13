@@ -27,7 +27,7 @@ Join the Facebook group. I post important updates there including current the ip
 
 # GOOD NEWS EVERYONE!
 
-There is now a deddicated machine to run the server, named Tardigrade. It's set up to automatically run noon-1am, if you'd like to play outside those times, let me know & I'll set it up.
+There is now a deddicated machine to run the server. It's set up to automatically run noon-1am, if you'd like to play outside those times, let me know & I'll set it up.
 
 Also, we've moved on to other exciting ventures now! We are building grand things, still primarily in creative - however, I have set up adventure & survival mode zones if you prefer to play there. Be aware that if you choose to leave creative mode, you won't be able to switch back to creative without me. Working on it.
 
