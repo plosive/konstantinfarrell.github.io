@@ -23,18 +23,23 @@ server are those I know personally.
 
 # READ THIS ITS IMPORTANT
 
-For now, this server is dedicated to building Plum Town. If you would like to add something else, please consult one of the admins ('tori or Konstantin) first.
-Any unauthorized building will be deleted without warning. 
+Up untill recently, this server has been deddicated to building Plum Town. If you would like to contribute to Plum Town (it does still need a few things), please consult 'tori. Any unauthorized building will be deleted & any destruction of the Plum Town will result in a mental & emotional breakdown for 'tori - so please don't.
 
-Here is a [map](../../../../files/server/img/map.jpg) of plum town done by Remi and 'tori.
-Also, we have a list of thing to be built, go ahead and take a look at the [workflowy](https://workflowy.com/s/8553xHNcUY)
-Join the Facebook group!
+Join the Facebook group. I post important updates there including current the ip addreses.
+
+# GOOD NEWS EVERYONE!
+
+There is now a deddicated machine to run the server. It's set up to automatically run noon-1am, if you'd like to play outside those times, let me know & I'll set it up.
+
+Also, we've moved on to other exciting ventures now! We are building grand things, still primarily in creative - however, I have set up adventure & survival mode zones if you prefer to play there. Be aware that if you choose to leave creative mode, you won't be able to switch back to creative without me. Working on it.
 
 ## Requirements
 
 There are a few things you're going to need before you will be able to connect, as we aren't running a vanilla server. Mods are fun.
 
-You should have Minecraft 1.8 (the latest version) installed. Below are the additional items for you to download and instructions for proper installation etc...
+Update: More mods have been added to the server! World Edit, VoxelMap, NotEnoughItems, Storage Drawers, Advanced Inventory, Gems, Useful Food, Plant Mega Pack, Custom NPCs, Animal Plus, Progressive Automation, and Hopper Ducts. You may not have access to all the mods, so if there's one you'd like to use, let me know & I'll make sure you can.
+
+You should have Minecraft 1.8 installed. Below are the additional items for you to download and instructions for proper installation etc...
 
 ## Install (for Windows)
 
@@ -53,8 +58,9 @@ In the following instructions, replace `username` with your Windows username. If
     - Your (\.minecraft\mods\1.8) folder should contain .jar/.litemod files for: Optifine, WorldEdit, and Zan's MiniMap
 - [Worldedit Config Files](../../../../files/server/config/worldedit.zip)
     - Unzip & place the "worldedit" file folder in the config directory (`C:\Users\username\AppData\Roaming\.minecraft\config`)
-- [Resource Pack](../../../../files/server/resourcepacks/Crafteryada v0.9.3a.zip)
+- [Resource Pack](../../../../files/server/resourcepacks/Crafteryada v0.9.3a.zip) (optional - slower computers may want to skip)
     - Place the Crafteryada v0.9.3a.zip file in the resourcepacks directory (`C:\Users\username\AppData\Roaming\.minecraft\resourcepacks`)
+    - Note: Plum Town was created using this pack & you are welcome to use it, but don't feel obligated to. ("But it makes Plum Town look damn fine" *-'tori*). If you have any cool Resource Packs, please share them with the group.
 
 That ought to do it for dependencies.
 
