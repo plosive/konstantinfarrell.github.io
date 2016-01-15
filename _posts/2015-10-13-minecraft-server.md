@@ -34,13 +34,11 @@ There have been many changes since the server first started.
 - The spawn area has moved from the center of Plum Town to a special "Spawn Zone" where users can utilize teleporters to set their game mode, and transport them to the respective area.
 - The number of mods has increased from 3 to 12.
 
-### SCHEDULE
-
-Now that the server is old enough to have it's own dedicated box, we felt like it should have its own schedule, too.
+#### SCHEDULE
 
 **The server will be running from 12:00PM to 1:00AM every day.**
 
-# Requirements (**Updated!**)
+# Requirements
 
 There are a few things you're going to need before you will be able to connect, as we aren't running a vanilla server. Mods are fun.
 
@@ -50,6 +48,8 @@ You should have Minecraft 1.8 installed. Below are the additional items for you 
 
 In the following instructions, replace `username` with your Windows username.
 If one of the listed folders does not exist in your minecraft directory, simply create a new folder with that name.
+
+#### First download the dependencies
 
 - [Forge Modloader](../../../../files/server/forge/forge-1.8-11.14.1.1334-installer-win.exe)
     - Open the Forge installer and following the instructions to "install client".
@@ -70,7 +70,7 @@ If one of the listed folders does not exist in your minecraft directory, simply 
     - Place the Crafteryada v0.9.3a.zip file in the resourcepacks directory (`C:\Users\username\AppData\Roaming\.minecraft\resourcepacks`)
     - Note: Plum Town was created using this pack & you are welcome to use it, but don't feel obligated to. ("But it makes Plum Town look damn fine" *-'tori*). If you have any cool Resource Packs, please share them with the group.
 
-## Next
+#### Then configure Minecraft
 
 - Start up the Minecraft Launcher & make sure you have the 'LiteLoader with Forge' profile selected
 - I highly suggest you allocate more RAM by selecting "Edit Profile" and changing the number in the "JVM Arguments" field (at the bottom) to the number of gigs (of RAM) you want Minecraft to use. For example, I wanted to use 4 gigs, so mine says: -Xmx4G
