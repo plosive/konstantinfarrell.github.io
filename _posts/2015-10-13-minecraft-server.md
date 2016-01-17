@@ -104,6 +104,6 @@ These links are for those who would like more information regarding how they are
 - [Hopper Ducts](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-x-hopper-ducts-mod)
 
 
-### Check back soon!
+## Check back soon!
 
 I will be posting updates to this frequently.
