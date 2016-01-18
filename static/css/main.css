@@ -13,7 +13,7 @@ h1 {
 body {
     height: 100%;
     font-family: 'Raleway', sans-serif !important;
-    background-color: #777 !important;//linear-gradient(#0066cc, #0059b3) !important;
+    background-color: #444 !important;//linear-gradient(#0066cc, #0059b3) !important;
     color: #ddd;
     overflow: hidden;
 
@@ -79,7 +79,7 @@ body {
 
 #main-text {
     display: inline;
-    text-shadow: 0 0 10px #000052;
+    text-shadow: 0 0 10px #000;
 }
 
 #name {
@@ -88,7 +88,7 @@ body {
 
 #slogan {
     color: #fff;
-    text-shadow: 0 0 10px #000052;
+    text-shadow: 0 0 10px #000;
     display: inline;
     vertical-align: top !important; 
 }
