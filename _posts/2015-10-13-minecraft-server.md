@@ -6,7 +6,7 @@ exerpt: I made a Minecraft server. Wanna play? Here's how.
 author: Konstantin Farrell, 'tori Christensen
 edited: 1/13/2016
 published: true
-image: /files/server/img/screenshot.png
+image: /files/server/img/Minecraft_logo.png
 image-alt: Minecraft Screenshot
 ---
 
@@ -21,7 +21,7 @@ I should note, as this is a public page, that if you do not have any idea why I 
 about Minecraft, you should probably just ignore this and move on. The only people allowed on the
 server are those I know personally.
 
-### Background
+#### Server Bio
 
 Up until recently, this server has been dedicated to building Plum Town. If you would like to contribute to Plum Town (it does still need a few things), please consult 'tori.
 Any unauthorized building will be deleted & any destruction of the Plum Town will result in a mental & emotional breakdown for 'tori - so please don't.
