@@ -13,8 +13,8 @@ h1 {
 body {
     height: 100%;
     font-family: 'Raleway', sans-serif !important;
-    background: linear-gradient(#0066cc, #0059b3) !important;
-    color: #ddd; 
+    background-color: #777 !important;//linear-gradient(#0066cc, #0059b3) !important;
+    color: #ddd;
     overflow: hidden;
 
     animation-name: slowZoom;

@@ -214,8 +214,8 @@
  * Posts
  */
 .post {
-    background-color: $background-color;
-    padding: $spacing-unit/2;
+    background-color: $post-background-color;
+    padding: $spacing-unit;
 }
 
 .post-header {
@@ -258,13 +258,13 @@
         }
     }
     .row {
-        background-color: $background-color;
+        background-color: $post-background-color;
         margin: 5px 0px;
-        padding: 5px 0px;
+        padding: 15px 0px;
         max-height: 200px;
         overflow: hidden;
         img {
-            max-height: 180px;
+            max-height: 170px;
             max-width: 100%;
         }
     }
