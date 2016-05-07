@@ -5,29 +5,29 @@ $(document).ready(function(){
     var height = 6;
     var max_speed = 4;
     var max_lines = Math.round(($(window).width()/200)*2);
-    var start_y = -1 * height * size;    
-    
+    var start_y = -1 * height * size;
+
     $('body').append('<div id="background"></div>');
     $('#background').css('top', 0);
     var html = "<div id='cell-container'></div>";
     $('#background').append(html);
 
     function drip(cell, x, speed){
-	var tops = $("#"+cell).position().top + speed;
-	$("#"+cell).css('top', tops);
-	if($("#"+cell).position().top > $(window).height()){
-	    var next_x = (Math.round(Math.random()*($(window).width()/size))-1)*size;
-	    var opacity = Math.random() * (0.20) + 0.1;
-	    
-	    $("#"+cell).css('opacity', opacity);
-	    $("#"+cell).css('left', next_x);
-	    $("#"+cell).css('top', start_y);
-	    speed = Math.round(Math.random()*4+1);
-	    x = next_x;
-	}
-	setTimeout(function(){
-	    drip(cell, x, speed);
-	}, timeout);
+        var tops = $("#"+cell).position().top + speed;
+        $("#"+cell).css('top', tops);
+        if($("#"+cell).position().top > $(window).height()){
+            var next_x = (Math.round(Math.random()*($(window).width()/size))-1)*size;
+            var opacity = Math.random() * (0.20) + 0.1;
+
+            $("#"+cell).css('opacity', opacity);
+            $("#"+cell).css('left', next_x);
+            $("#"+cell).css('top', start_y);
+            speed = Math.round(Math.random()*4+1);
+            x = next_x;
+        }
+        setTimeout(function(){
+            drip(cell, x, speed);
+        }, timeout);
     }
 
     for(i = 0; i < max_lines; i++){
@@ -39,7 +39,9 @@ $(document).ready(function(){
         $("#"+cell_name).css('left', next_x);
         $("#"+cell_name).css({'width': size, 'height': height * size });
         $("#"+cell_name).css('top', start_y - next_x);
+        var opacity = Math.random() * (0.20) + 0.1;
+        $("#"+cell_name).css('opacity', opacity);
         drip(cell_name, next_x, speed);
-    }    
+    }
 
 });
