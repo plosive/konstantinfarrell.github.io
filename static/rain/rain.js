@@ -4,7 +4,7 @@ $(document).ready(function(){
     var timeout = 16;
     var height = 6;
     var max_speed = 4;
-    var max_lines = Math.round(($(window).width()/200)*2);
+    var max_lines = Math.round(($(window).width()/150));
     var start_y = -1 * height * size;
 
     $('body').append('<div id="background"></div>');
