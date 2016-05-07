@@ -66,15 +66,13 @@ body {
 
 #main-container {
     margin: 0 auto;
-    max-width: 75%;
     border-radius: 7px;
     padding: 20px;
 }
 
 #main-text-container {
-    margin: 30px auto 0;
-    margin-left: 42%;
     height: 50px;
+    margin-top: 20px;
 }
 
 #main-text {
