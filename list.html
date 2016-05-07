@@ -11,7 +11,7 @@ permalink: /posts/
         <p><strong>Category: </strong><span class="badge">{% if post.category %}{{ post.category }}{% else %}Misc{% endif %}</span></p>
         </div>
         <div class="col-md-5 post-image">
-            <img class="pull-right" src="{% if post.image %}{{ post.image }}{% else %}static/img/logo.png{% endif %}" alt="{{ post.image-alt }}"></img>
+            <img class="pull-right" src="{% if post.image %}{{ post.image }}{% else %}/static/img/logo.png{% endif %}" alt="{{ post.image-alt }}"></img>
         </div>
     </div>
 {% endfor %}
