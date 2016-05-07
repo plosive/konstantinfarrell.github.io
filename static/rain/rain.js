@@ -17,7 +17,7 @@ $(document).ready(function(){
 	$("#"+cell).css('top', tops);
 	if($("#"+cell).position().top > $(window).height()){
 	    var next_x = (Math.round(Math.random()*($(window).width()/size))-1)*size;
-	    var opacity = Math.random() * (0.30) + 0.1;
+	    var opacity = Math.random() * (0.20) + 0.1;
 	    
 	    $("#"+cell).css('opacity', opacity);
 	    $("#"+cell).css('left', next_x);
