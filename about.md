@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
@@ -8,10 +8,31 @@ permalink: /about/
 
 ## My name is Konstantin. I make things go.
 
-I currently work at Portland State University's department for Academic and Research Computing. We write, host, and maintain custom web applications for the university and other clients.
+I'm a student at Portland State University majoring in Computer Science with a minor in Mathematics.
+My inventory of languages includes:
 
-I really like code, space, engineering, and making things go. Whether it's that last stinkin' bug that managed to elude me for this long, or it's that critical component that allows the rocket to safely deploy its parachute at its apogee. Let me take a crack at it.
+- Python
+- C/C++
+- C#/.NET
+- Java
+- Javascript/jQuery
+- HTML
+- SQL/MySQL/PostgreSQL
 
-While I am currently employed, I have lots of free afternoons to do stuff with. If you have a site that needs to be redone, a buggy module that could use a second pair of eyes, or a rocket that really wants to get to space, let me know.
+And I am also proficient in the following frameworks:
+
+- Django
+- LAMP Stack
+- ELK Stack
+- Jekyll
+
+I currently work at Portland State University's department for Academic and Research Computing.
+We develop, host, and maintain custom, data-driven research web applications for the university
+and other clients. Currently, we maintain and provide support for over 100 applications spanning
+many widely-used frameworks.
+
+My hobbies include writing code, creating music or art, tinkering with electronics and
+building and inventing.
+I love to put my creative skills to use and I'm always up for finding more opportunities to do so.
 
 <img id="logo" class="center-horizontal" src="{{ site.url }}/static/img/logo.png" alt="KF Logo" width="300" height="300" />
