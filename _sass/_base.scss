@@ -30,7 +30,7 @@ html, body {
 
 hr {
     border-color: $grey-color;
-    //margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
 }
 
 /**
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit/2;
 }
 
 
@@ -92,6 +92,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
+h1, h2 {
+    margin-bottom: $spacing-unit;
+}
 
 
 /**
@@ -163,8 +166,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(900px - (#{$spacing-unit} * 2));
-    max-width:         calc(900px - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(1000px - (#{$spacing-unit} * 2));
+    max-width:         calc(1000px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
