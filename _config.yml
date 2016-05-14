@@ -1,8 +1,12 @@
 # Site settings
-title: Konstantin's Stuff
+title: Konstantin's Box
 email: konstantinfarrell@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    Make it go. Make it fast. Make it awesome. Make it made by Konstantin.
+    Konstantin is a full-stack web developer from Portland, Oregon.
+    In his spare time he can be found tinkering away at some code or
+    circuits, making music on whatever instrument he can find, or
+    hacking away at about 4 projects at once.
+    He also occasionally has a decent game of DotA.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://konstantinfarrell.github.io" # the base hostname & protocol for your site
 twitter_username: kvonmolotov

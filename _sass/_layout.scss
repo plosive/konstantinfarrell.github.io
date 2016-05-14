@@ -235,6 +235,11 @@
     background-color: $post-background-color;
     padding: $spacing-unit $spacing_unit*2;
 
+    @include media-query($on-palm) {
+        padding: 10px 10px;
+        overflow-x: scroll;
+    }
+
     iframe {
         width: 100%;
         height: 300px;
